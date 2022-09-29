@@ -1,7 +1,10 @@
 #!/bin/bash
 
+
+chmod 400 new.pem
+
 echo "copy code from workspace to nginx server..."
-scp -r -i new.pem * ubuntu@50.18.76.214:/home/ubuntu/cafe
+scp -r -i new.pem ./* ubuntu@50.18.76.214:/home/ubuntu/cafe
 
 echo "copy code to /var/www/"
 ssh -i new.pem ubuntu@50.18.76.214 "sudo cp -r /home/ubuntu/cafe /var/www/"
