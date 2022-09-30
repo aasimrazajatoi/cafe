@@ -1,8 +1,5 @@
 #!/bin/bash
 
-
-chmod 400 new.pem
-
 echo "copy code from workspace to nginx server..."
 scp -r  ../cafe ubuntu@50.18.76.214:/home/ubuntu/cafe
 
