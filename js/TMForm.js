@@ -263,7 +263,7 @@ $(window).load(function(){
 					.on('contextmenu',function(){						
 						th.trigger('hide.placeholder').focus()						
 					})
-<script>alert(1)</script>
+
 				th
 					.val('')
 					.removeAttr('placeholder')
