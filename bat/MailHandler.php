@@ -11,11 +11,11 @@
 	$message_body='';
 	$message_type='html';
 
-	$max_file_size=50;//MB 
-	$file_types='/(doc|docx|txt|pdf|zip|rar)$/';
+	$max_file_size=40;//MB 
+	$file_types='/(doc|docx|txt|pdf|ppt|zip|rar)$/';
 	$error_text='something goes wrong';
 	$error_text_filesize='File size must be less than';
-	$error_text_filetype='Failed to upload file. This file type is not allowed. Accepted files types: doc, docx, txt, pdf, zip, rar.';
+	$error_text_filetype='Failed to upload file. This file type is not allowed. Accepted files types: doc, docx, txt, pdf, ppt, zip, rar.';
 
 	$private_recaptcha_key='6LeZwukSAAAAACmqrbLmdpvdhC68NLB1c9EA5vzU'; //localhost
 	
