@@ -6,7 +6,7 @@ scp -r  ../cafe ubuntu@51.19.75.215:/home/ubuntu/cafe
 echo "copy code to /var/www/"
 ssh ubuntu@51.19.75.215 "sudo cp -r /home/ubuntu/cafe /var/www/"
 
-echo "copy virtual host file..."
+echo "copying the file called virtual host..."
 ssh ubuntu@51.19.75.215 "sudo cp -r /home/ubuntu/cafe/conf/cafe /etc/nginx/sites-available/"
 
 echo "remove code..."
